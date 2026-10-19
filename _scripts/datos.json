@@ -1,0 +1,13 @@
+{
+  "sitio": "Sebastian Barello Abogado",
+  "titulo_corto": "Sebastian Barello Abogado",
+  "responsable": "el abogado Sebastian Barello",
+  "domicilio": "Alvear 394, 4° C, Rafaela, Santa Fe",
+  "email": "barellosebastian@gmail.com",
+  "telefono": "+54 9 3492 31-3040",
+  "persona": "yo",
+  "formulario": false,
+  "btn": "btn-oro",
+  "theme_color": "#0B0F17",
+  "css": {"fondo": "var(--ink)", "fondo_hero": "var(--ink-2)", "texto_hero": "var(--head-d)", "acento": "var(--oro)", "muted": "var(--muted-d)", "titulos": "var(--f-head)"}
+}
