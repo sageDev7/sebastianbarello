@@ -159,6 +159,9 @@ body.nav-open .mnav-ov{opacity:1;visibility:visible}
 .retrato-ph{position:relative;display:grid;place-items:center;aspect-ratio:4/5;background:linear-gradient(160deg,var(--ink-2),var(--ink-4));border:1px solid var(--line-o)}
 .retrato-ph::before{content:"";position:absolute;inset:14px;border:1px solid var(--line-d)}
 .retrato-ph span{font-family:var(--f-head);font-weight:800;font-size:clamp(5rem,9vw,7.5rem);color:rgba(201,163,91,.55);letter-spacing:.02em}
+.retrato-img{position:relative;aspect-ratio:4/5;overflow:hidden;border:1px solid var(--line-o)}
+.retrato-img img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.retrato-img::after{content:"";position:absolute;inset:14px;border:1px solid rgba(201,163,91,.45);pointer-events:none}
 .retrato figcaption{display:flex;flex-direction:column;margin-top:1.4rem;padding-left:1rem;border-left:2px solid var(--oro)}
 .retrato figcaption b{font-family:var(--f-head);font-weight:700;font-size:1.5rem;color:var(--head-d);line-height:1.1}
 .retrato figcaption span{font-size:.7rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--oro)}
